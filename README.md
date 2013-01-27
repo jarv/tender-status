@@ -21,12 +21,13 @@
 ## Installation
 
 ```
-git clone git@github.com:jarv/tender-status
+git clone http://github.com/jarv/tender-status
 cd tender-status
 mkvirtualenv status
 pip install -r requirements.txt
 vim settings.py
 python tender.py
+chrome http://localhost:5000
 ```
 
 
