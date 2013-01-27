@@ -1,0 +1,126 @@
+html {
+}
+
+body {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 10px;
+    margin: 0;
+    background-image: -webkit-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #D2EFD7 100%);
+    font: 11px Verdana, Arial, Helvetica, sans-serif;
+
+}
+#heading {
+    font-size: 100px;
+    text-align: center;
+    width: 900px;
+    border-bottom:5px dashed #333;
+    font-family: 'Faster One', cursive;
+    height: 150px;
+    display: table-cell;
+    vertical-align: middle;
+}
+#content {
+    width:900px;
+    margin:0px auto;
+    text-align:left;
+    background: #EFEDED;
+    position: relative;
+    box-shadow: 10px 10px 5px #888888;
+    border-radius: 15px;
+    border:2px solid #282828;
+}
+
+.most_recent {
+    border: 2px solid black;
+}
+.author_name {
+    text-align: center;
+    width: 200px;
+    font-weight: bold;
+    float: left;
+}
+
+.title {
+    text-align: center;
+    width: 600px;
+    float: left;
+}
+.row {
+    width:800px;
+    height:80px;
+    left:0px;
+    margin:0px auto;
+    text-align:left;
+    clear: both;
+    padding: 10px;
+    vertical-align: middle;
+    font-family: 'Alfa Slab One';
+    font-size: 55px;
+    color: #282828;
+    border-bottom:2px solid #300000;
+}
+
+.label {
+    width: 500px;
+    left:0px;
+    float: left;
+
+}
+
+.value {
+    width: 300px;
+    left: 400px;
+    float: left;
+    text-align: right;
+}
+
+table.summary_stats{
+    font-weight: bold;
+    border-collapse: collapse;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    font: 18px Verdana, Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+table {
+    font-weight: bold;
+    border-collapse: collapse;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font: 18px Verdana, Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+th {
+    padding: 0 0.5em;
+    text-align: left;
+    }
+
+tr.yellow td {
+    border-top: 1px solid #FB7A31;
+    border-bottom: 1px solid #FB7A31;
+    background: #FFC;
+    font-size: 18px;
+    }
+
+td {
+    border-bottom: 1px solid #CCC;
+    padding: 2px;
+    }
+
+td+td {
+    border-left: 1px solid #CCC;
+    text-align: center;
+    }
+
+a:link  {text-decoration:none;}
+
